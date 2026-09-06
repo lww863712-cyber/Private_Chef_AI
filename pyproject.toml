@@ -1,0 +1,25 @@
+[project]
+name = "pythonproject4"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "lww863712-cyber", email = "lwww863712@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "alibabacloud-oss-v2>=1.4.0",
+    "dotenv>=0.9.9",
+    "fastapi>=0.141.1",
+    "langchain>=1.4.0",
+    "langchain-deepseek>=1.1.0",
+    "langchain-tavily>=0.2.18",
+    "langgraph-checkpoint-sqlite>=3.1.1",
+    "notebook>=7.6.2",
+]
+
+[project.scripts]
+pythonproject4 = "pythonproject4:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
