@@ -8,13 +8,17 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "alibabacloud-oss-v2>=1.4.0",
+    "checkpointer>=2.14.12",
     "dotenv>=0.9.9",
     "fastapi>=0.141.1",
     "langchain>=1.4.0",
     "langchain-deepseek>=1.1.0",
     "langchain-tavily>=0.2.18",
     "langgraph-checkpoint-sqlite>=3.1.1",
+    "logger>=1.4",
+    "myapplication>=0.1.0",
     "notebook>=7.6.2",
+    "uvicorn>=0.52.4",
 ]
 
 [project.scripts]
